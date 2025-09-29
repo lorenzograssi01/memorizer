@@ -1,0 +1,5 @@
+{
+  "nTrainingWords": 10,
+  "confirmationOnDelete": false,
+  "getRandomWords": false
+}

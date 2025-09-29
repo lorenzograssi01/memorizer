@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+
+<VBox alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="it.unipi.memorizer.app.OpenWordController" style="-fx-background-color: #ffffff; -fx-border-radius: 10px; -fx-padding: 20px;">
+   <children>
+      <VBox alignment="CENTER" spacing="20.0" VBox.vgrow="ALWAYS">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="WORD DETAILS" style="-fx-font-size: 28px; -fx-font-weight: bold; -fx-fill: #000000;">
+               <VBox.margin>
+                  <Insets bottom="20.0" />
+               </VBox.margin>
+            </Text>
+            <VBox alignment="CENTER">
+               <children>
+                  <Label text="Word" style="-fx-font-size: 16px; -fx-text-fill: #666666;" />
+                  <Text fx:id="word" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 16px; -fx-text-fill: #333333;" />
+               </children>
+            </VBox>
+            <VBox alignment="CENTER">
+               <children>
+                  <Label text="Description" style="-fx-font-size: 16px; -fx-text-fill: #666666;" />
+                  <Text fx:id="description" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="350.0" style="-fx-font-size: 16px; -fx-text-fill: #333333;" />
+               </children>
+            </VBox>
+            <VBox alignment="CENTER">
+               <children>
+                  <Label text="Translation" style="-fx-font-size: 16px; -fx-text-fill: #666666;" />
+                  <Text fx:id="translation" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 16px; -fx-text-fill: #333333;" />
+               </children>
+            </VBox>
+         </children>
+         <padding>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </padding>
+      </VBox>
+   </children>
+</VBox>
